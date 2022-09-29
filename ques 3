@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+class area{
+  public:
+  area(int l,int b){
+      cout<<l*b<<endl;
+  }
+  area(int a){
+      cout<<a*a;
+  }
+};
+int main() {
+   area rec(15,20);
+   area sqr(10);
+
+    return 0;
+}
