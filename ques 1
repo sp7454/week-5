@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+class student{
+  public:  student(){
+      cout<<"UNKNOWN"<<endl;
+  }
+  student(string s){
+      cout<<s;
+  }
+};
+int main() {
+    string s;
+    cin>>s;
+    student s1;
+    student s2(s);
+   
+
+    return 0;
+}
