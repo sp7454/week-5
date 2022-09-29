@@ -1,0 +1,30 @@
+#include <iostream>
+using namespace std;
+class degree{
+  public:
+  void getdegree(){
+      cout<<"I Got A Degree"<<endl;
+  }
+};
+class Undergraduate : public degree{
+    public:
+    void getdegree(){
+        cout<<"I am an Undergraduate"<<endl;
+    }
+};
+class postgraduate : public degree{
+    public:
+    void getdegree(){
+        cout<<"I am an postgraduate"<<endl;
+    }
+};
+
+int main() {
+   degree dft;
+    postgraduate p;
+   Undergraduate u;
+   dft.getdegree();
+   p.getdegree();
+   u.getdegree();
+    return 0;
+}
