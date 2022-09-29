@@ -1,0 +1,19 @@
+
+#include <iostream>
+using namespace std;
+class Addamount{
+    public:
+    int amount=50;
+    Addamount(){
+        cout<<amount<<endl;
+    }
+   Addamount(int a){
+       cout<<amount+a<<endl;
+   }
+};
+int main() {
+   Addamount dft;
+   Addamount aft(55);
+
+    return 0;
+}
