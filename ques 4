@@ -1,0 +1,38 @@
+
+#include <iostream>
+using namespace std;
+class bank{
+ 
+  
+};
+class A : public bank{
+    public:
+    void getbalance(int b){
+        cout<<b<<endl;
+    }
+};
+class B : public bank{
+    public:
+    void getbalance(int b){
+        cout<<b<<endl;
+    }
+};
+class C : public bank{
+    public:
+    void getbalance(int b){
+        cout<<b<<endl;
+    }
+};
+
+int main() {
+    bank dft;
+    A a;
+    B b;
+    C c;
+    a.getbalance(1000);
+    b.getbalance(1500);
+    c.getbalance(2000);
+
+
+    return 0;
+}
